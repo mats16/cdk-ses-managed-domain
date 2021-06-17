@@ -41,6 +41,7 @@ export class ManagedIdentity extends cdk.Construct {
             'ses:SetActiveReceiptRuleSet',
             'ses:CreateReceiptRuleSet',
             'ses:CreateReceiptRule',
+            'ses:DeleteReceiptRule',
             'ses:VerifyDomainIdentity',
             'ses:VerifyDomainDkim',
             'ses:SetIdentityEmailNotificationEnabled',
