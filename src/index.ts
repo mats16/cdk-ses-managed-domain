@@ -69,6 +69,6 @@ export class ManagedIdentity extends cdk.Construct {
     });
     const workMailAlias = workMailOrg.getAttString('Alias');
     this.domainName = `${workMailAlias}.awsapps.com`;
-    this.arn = `arn:${cdk.Aws.PARTITION}:ses:${region}:${cdk.Aws.ACCOUNT_ID}:identity/${this.domainName}`
+    this.arn = `arn:${cdk.Aws.PARTITION}:ses:${region}:${cdk.Aws.ACCOUNT_ID}:identity/${this.domainName}`;
   };
 };

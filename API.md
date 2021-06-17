@@ -4,18 +4,18 @@
 
 Name|Description
 ----|-----------
-[ManagedDomain](#cdk-ses-managed-domain-manageddomain)|*No description*
+[ManagedIdentity](#cdk-ses-managed-domain-managedidentity)|*No description*
 
 
 **Structs**
 
 Name|Description
 ----|-----------
-[ManagedDomainProps](#cdk-ses-managed-domain-manageddomainprops)|*No description*
+[ManagedIdentityProps](#cdk-ses-managed-domain-managedidentityprops)|*No description*
 
 
 
-## class ManagedDomain  <a id="cdk-ses-managed-domain-manageddomain"></a>
+## class ManagedIdentity  <a id="cdk-ses-managed-domain-managedidentity"></a>
 
 
 
@@ -28,12 +28,12 @@ __Extends__: [Construct](#aws-cdk-core-construct)
 
 
 ```ts
-new ManagedDomain(scope: Construct, id: string, props?: ManagedDomainProps)
+new ManagedIdentity(scope: Construct, id: string, props?: ManagedIdentityProps)
 ```
 
 * **scope** (<code>[Construct](#aws-cdk-core-construct)</code>)  *No description*
 * **id** (<code>string</code>)  *No description*
-* **props** (<code>[ManagedDomainProps](#cdk-ses-managed-domain-manageddomainprops)</code>)  *No description*
+* **props** (<code>[ManagedIdentityProps](#cdk-ses-managed-domain-managedidentityprops)</code>)  *No description*
   * **sesRegion** (<code>string</code>)  *No description* __*Optional*__
   * **subDomainName** (<code>string</code>)  *No description* __*Optional*__
 
@@ -44,11 +44,12 @@ new ManagedDomain(scope: Construct, id: string, props?: ManagedDomainProps)
 
 Name | Type | Description 
 -----|------|-------------
+**arn** | <code>string</code> | <span></span>
 **domainName** | <code>string</code> | <span></span>
 
 
 
-## struct ManagedDomainProps  <a id="cdk-ses-managed-domain-manageddomainprops"></a>
+## struct ManagedIdentityProps  <a id="cdk-ses-managed-domain-managedidentityprops"></a>
 
 
 
