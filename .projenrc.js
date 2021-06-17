@@ -6,7 +6,26 @@ const project = new AwsCdkConstructLibrary({
   defaultReleaseBranch: 'main',
   name: 'cdk-ses-managed-domain',
   repositoryUrl: 'https://github.com/mats.kazuki/cdk-ses-managed-domain.git',
-
+  cdkDependencies: [
+    '@aws-cdk/core',
+    '@aws-cdk/aws-iam',
+    '@aws-cdk/aws-lambda',
+    '@aws-cdk/aws-lambda-nodejs',
+  ],
+  bundledDeps: [
+    '@aws-sdk/client-workmail',
+    'axios',
+  ],
+  devDeps: [
+    '@types/aws-lambda',
+    'esbuild@0',
+  ],
+  gitignore: [
+    'cdk.out/',
+  ],
+  npmignore: [
+    '/cdk.out',
+  ],
   // cdkDependencies: undefined,        /* Which AWS CDK modules (those that start with "@aws-cdk/") does this library require when consumed? */
   // cdkTestDependencies: undefined,    /* AWS CDK modules required for testing. */
   // deps: [],                          /* Runtime dependencies of this module. */
