@@ -5,7 +5,7 @@ const project = new AwsCdkConstructLibrary({
   cdkVersion: '1.95.2',
   defaultReleaseBranch: 'main',
   name: 'cdk-ses-managed-domain',
-  repositoryUrl: 'https://github.com/mats.kazuki/cdk-ses-managed-domain.git',
+  repositoryUrl: 'https://github.com/mats16/cdk-ses-managed-domain.git',
   cdkDependencies: [
     '@aws-cdk/core',
     '@aws-cdk/aws-iam',

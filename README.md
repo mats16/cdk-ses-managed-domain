@@ -1,3 +1,5 @@
+## ※ This package was merged to [cdk-ses-helpers](https://www.npmjs.com/package/cdk-ses-helpers).
+
 # cdk-ses-managed-domain
 
 CDK construct to create managed identity of Amazon SES via Amazon WorkMail 

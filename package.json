@@ -2,7 +2,7 @@
   "name": "cdk-ses-managed-domain",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mats.kazuki/cdk-ses-managed-domain.git"
+    "url": "https://github.com/mats16/cdk-ses-managed-domain.git"
   },
   "scripts": {
     "clobber": "npx projen clobber",
